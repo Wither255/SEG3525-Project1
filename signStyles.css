@@ -1,0 +1,99 @@
+body {
+    font-family: Andale Mono, sans-serif;
+	font-weight: 10;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding-top: 50px;
+}
+
+p a {
+    color: blue;
+    text-decoration: none;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+	margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    background: #F0F8FF;
+    padding: 5px;
+    border: 5px;
+	border-style: solid;	
+	border-color: #afb5ba;
+	border-radius: 20%;
+	background-image: url('Images/Fisch.png'); 
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 200px; 
+    height: 200px; 
+}
+
+/* Login Box */
+.login-container {
+    width: 320px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    border: 3px solid #888;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.forgot-password {
+    display: block;
+    margin: 10px 0;
+    color: blue;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to bottom, #f5f5f5, #ccc);
+    border: 1px solid #888;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.closeBtn-container {
+    display: flex;
+    justify-content: right;
+	margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#close-btn {
+    position: fixed;
+    top: 5px;
+    right: 20px;
+    background: #F0F8FF;
+    color: #424547;
+    font-size: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 2px;
+	border-style: solid;	
+	border-color: #afb5ba;
+	border-radius: 10%;
+	width: 50px; 
+    height: 50px; 
+}
+
+#close-btn:hover {
+    background: #afb5ba;
+}
