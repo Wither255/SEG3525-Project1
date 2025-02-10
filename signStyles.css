@@ -1,5 +1,6 @@
 body {
     font-family: Andale Mono, sans-serif;
+	font-size: 16px;
 	font-weight: 10;
     background-color: #f5f5f5;
     text-align: center;
@@ -9,6 +10,7 @@ body {
 p a {
     color: blue;
     text-decoration: none;
+	font-size: 16px;
 }
 
 .logo-container {
@@ -19,12 +21,12 @@ p a {
 }
 
 .logo {
-    background: #F0F8FF;
-    padding: 5px;
-    border: 5px;
-	border-style: solid;	
+    /*background: #F0F8FF;
+    border: 5px;*/
+	padding: 5px;
+	/*border-style: solid;	
 	border-color: #afb5ba;
-	border-radius: 20%;
+	border-radius: 20%;*/
 	background-image: url('Images/Fisch.png'); 
     background-size: contain; 
     background-position: center; 
@@ -89,7 +91,7 @@ button {
     border: 2px;
 	border-style: solid;	
 	border-color: #afb5ba;
-	border-radius: 10%;
+	border-radius: 5%;
 	width: 50px; 
     height: 50px; 
 }

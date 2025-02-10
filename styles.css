@@ -1,0 +1,68 @@
+body {
+    font-family: Andale Mono, sans-serif;
+	display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+ht1 {
+	font-family: Monaco, serif;
+    color: #05111e;
+    text-decoration: none;
+	font-size: 70px;
+}
+
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;  
+    overflow-x: hidden;  
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding-top: 2px;
+    padding-bottom: 2px;
+	white-space: nowrap;
+}
+
+
+.logo {
+    /*background: #F0F8FF;
+    border: 5px;
+	border-style: solid;	
+	border-color: #afb5ba;
+	border-radius: 20%;*/
+	background-image: url('Images/Fisch.png'); 
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+	margin-bottom: 2px;
+    width: 100px; 
+    height: 100px; 
+}
+
+.shopping-cart-container {
+    display: flex;
+	align-items: right;
+    justify-content: flex-start; 
+    max-width: 50px; 
+}
+
+.logo-box {
+    display: flex;
+    justify-content: center;
+}
+
+.special-box {
+    height: 200px;
+    background: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid gray;
+}
+
+.footer {
+    margin-top: auto;
+    text-align: center;
+}
