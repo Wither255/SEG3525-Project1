@@ -39,6 +39,7 @@ ht1 {
 	margin-bottom: 2px;
     width: 100px; 
     height: 100px; 
+	cursor: pointer;
 }
 
 .shopping-cart-container {
@@ -62,6 +63,57 @@ ht1 {
     border: 2px solid gray;
 }
 
+.sidebar {
+    position: sticky;
+    height: calc(100vh - 70px); 
+    overflow-y: auto; 
+    border-right: 1px solid #ddd;
+}
+
+.sidebar hr {
+    border: none;         
+    height: 2px;         
+    background-color: #333; 
+    margin-top: 0;            
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.item-card {
+    border: 2px solid #0a0a23;
+    border-radius: 8px;
+}
+
+.item-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-text {
+    font-weight: bold;
+}
+
+.preview-box {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid navy;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background: linear-gradient(to bottom right, white 50%, gray 50%);
+}
+		
 .footer {
     margin-top: auto;
     text-align: center;
