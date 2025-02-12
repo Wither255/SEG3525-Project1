@@ -45,8 +45,14 @@
             </div>
 			
 			<div class="col-md-6">
-				<input type="text" class="form-control mt-1" placeholder="Find your gear">
-						<!-- Category Navigation -->
+				<div class="container mt-5">
+					<form action="catalog.html" method="get">
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="Search..." name="query" required>
+							<button class="btn btn-secondary" type="submit">Search</button>
+						</div>
+					</form>
+				</div>		
 			<div class="container text-center mt-2">
 				<p>
 				  <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#RodsEx" aria-expanded="false" aria-controls="RodsEx">
