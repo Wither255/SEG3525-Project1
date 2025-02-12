@@ -9,11 +9,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 	
 	document.getElementById("close-btn")?.addEventListener("click", function () {
-        window.location.href = "main.html"; 
+        window.location.href = "index.html"; 
 	});
 	
 	document.getElementById("homeClick")?.addEventListener("click", function () {
-        window.location.href = "main.html"; 
+        window.location.href = "index.html"; 
     });
 	
 	document.getElementById("customLures")?.addEventListener("click", function() {
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	});
 	
 	document.getElementById("dummyBack")?.addEventListener("click", function () {
-        window.location.href = "main.html"; 
+        window.location.href = "index.html"; 
     });
 	
 });
