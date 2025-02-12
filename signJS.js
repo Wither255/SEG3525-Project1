@@ -32,6 +32,42 @@ document.addEventListener("DOMContentLoaded", function () {
 		window.location.href = "Cart.html";
 	});
 	
+	document.getElementById("catalog1-link")?.addEventListener("click", function() {
+		window.location.href = "catalog.html";
+	});
+	
+	document.getElementById("catalog2-link")?.addEventListener("click", function() {
+		window.location.href = "catalog.html";
+	});
+	
+	document.getElementById("catalog3-link")?.addEventListener("click", function() {
+		window.location.href = "catalog.html";
+	});
+	
+	document.getElementById("catalog4-link")?.addEventListener("click", function() {
+		window.location.href = "catalog.html";
+	});
+	
+	document.getElementById("catalog5-link")?.addEventListener("click", function() {
+		window.location.href = "catalog.html";
+	});
+	
+	document.getElementById("catalog6-link")?.addEventListener("click", function() {
+		window.location.href = "catalog.html";
+	});
+	
+	document.getElementById("catalog7-link")?.addEventListener("click", function() {
+		window.location.href = "catalog.html";
+	});
+	
+	document.getElementById("catalog8-link")?.addEventListener("click", function() {
+		window.location.href = "catalog.html";
+	});
+	
+	document.getElementById("catalog9-link")?.addEventListener("click", function() {
+		window.location.href = "catalog.html";
+	});
+	
 	document.getElementById("dummyBack")?.addEventListener("click", function () {
         window.location.href = "main.html"; 
     });
