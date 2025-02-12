@@ -33,39 +33,39 @@ document.addEventListener("DOMContentLoaded", function () {
 	});
 	
 	document.getElementById("catalog1-link")?.addEventListener("click", function() {
-		window.location.href = "catalog.html";
+		window.location.href = "Catalog.html";
 	});
 	
 	document.getElementById("catalog2-link")?.addEventListener("click", function() {
-		window.location.href = "catalog.html";
+		window.location.href = "Catalog.html";
 	});
 	
 	document.getElementById("catalog3-link")?.addEventListener("click", function() {
-		window.location.href = "catalog.html";
+		window.location.href = "Catalog.html";
 	});
 	
 	document.getElementById("catalog4-link")?.addEventListener("click", function() {
-		window.location.href = "catalog.html";
+		window.location.href = "Catalog.html";
 	});
 	
 	document.getElementById("catalog5-link")?.addEventListener("click", function() {
-		window.location.href = "catalog.html";
+		window.location.href = "Catalog.html";
 	});
 	
 	document.getElementById("catalog6-link")?.addEventListener("click", function() {
-		window.location.href = "catalog.html";
+		window.location.href = "Catalog.html";
 	});
 	
 	document.getElementById("catalog7-link")?.addEventListener("click", function() {
-		window.location.href = "catalog.html";
+		window.location.href = "Catalog.html";
 	});
 	
 	document.getElementById("catalog8-link")?.addEventListener("click", function() {
-		window.location.href = "catalog.html";
+		window.location.href = "Catalog.html";
 	});
 	
 	document.getElementById("catalog9-link")?.addEventListener("click", function() {
-		window.location.href = "catalog.html";
+		window.location.href = "Catalog.html";
 	});
 	
 	document.getElementById("dummyBack")?.addEventListener("click", function () {
