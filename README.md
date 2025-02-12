@@ -1,7 +1,7 @@
 # SEG3525-Project1
 Website UI
 
-
+Git Pages Link: https://wither255.github.io/SEG3525-Project1/
 
 Links for borrowed images:
 https://rawwfishing.com/
